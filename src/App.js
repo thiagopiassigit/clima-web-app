@@ -2,7 +2,7 @@ import DivCustomizavel from './components/DivCustomizavel/index'
 
 function App() {
   return (
-    <div></div>
+    <div> </div>
   );
 }
 

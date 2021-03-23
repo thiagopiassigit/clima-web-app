@@ -13,3 +13,4 @@ function configuraçõesPadrãoDeEstilo(cor,largura,altura){
         height: altura
     }
 }
+ 
