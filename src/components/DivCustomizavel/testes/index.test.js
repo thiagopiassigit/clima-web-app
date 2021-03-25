@@ -1,6 +1,6 @@
 import DivCustomizavel from '../index'
 import UtilitarioDom from '../../../recursos/testes/UtilitariosDom'
-import { criarContainerNoDom, desmontarContainer } from './funçõesPadrãoDeTeste'
+import {desmontarContainer, criarContainerNoDom} from '../../../recursos/testes/funçõesPadrãoDeTeste'
 
 beforeEach(() => criarContainerNoDom())
 afterEach(() => desmontarContainer())
