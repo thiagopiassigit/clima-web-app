@@ -10,7 +10,7 @@ export default {
     renderizar(componente){
 
         act(() => {
-            render(componente,document.getElementById('container'))
+            render(componente,this.obterContainerDeTeste())
         })
 
         return this.obterComponenteTestado()
