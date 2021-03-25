@@ -1,6 +1,6 @@
 export default function DivCustomizavel(props){
     return(
-        <div style={Object.assign({}, props.css, configuraçõesPadrãoDeEstilo(props.cor,props.largura,props.altura))} className={props.clsse}>
+        <div style={Object.assign({}, props.css, configuraçõesPadrãoDeEstilo(props.cor,props.largura,props.altura))} className={props.classe}>
             {props.children}
         </div>
     )
